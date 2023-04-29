@@ -10,7 +10,8 @@ int main(){
     car[strcspn(car, "\n")] = 0; 
     
     
-        printf("Enter price\n");
+
+    printf("Enter price\n");
         scanf("%d",&price);
         printf("Enter extra fitting price\n");
         scanf("%d",&extraPrice);
